@@ -30,12 +30,13 @@ Crawler-PN-Denpasar-Narkotika/
 │   ├── Narkotika.zip                             # Basis data 64 dokumen PDF putusan asli Mahkamah Agung (Prioritas 1)
 │   └── Folder_TXT_Putusan.zip                    # Arsip 70 dokumen teks (.txt) bersih hasil konversi & noise removal
 │
-├── Overview.xlsx                                 # Tabel metadata utama putusan tahun 2023-2025 (Sub-CPMK 2 / Tugas 2)
+├── Overview/
+│   ├── Overview.xlsx                                 # Tabel metadata utama putusan tahun 2023-2025 (Sub-CPMK 2 / Tugas 2)
+│
 ├── Hasil_Ekstraksi_Crawler_PN_Denpasar.csv       # Tabel 15 atribut hasil ekstraksi 70 dokumen unik (Sub-CPMK 3 / Tugas 3)
 ├── Log_URL_Crawler_MA.csv                        # Log penelusuran URL kandidat & metadata HTML dari crawler
 ├── Inverted_Index_Putusan_PN_Denpasar.csv        # Tabel Dictionary (5.119 unique terms), DF, CF, IDF & Postings List (Tugas 4)
 ├── Inverted_Index_Putusan_PN_Denpasar.json       # Struktur Inverted Index dalam format JSON (Sub-CPMK 4 / Tugas 4)
-│
 ├── crawler_putusan_dpsr.ipynb                    # Notebook utama (End-to-End Pipeline Tugas 3 & Tugas 4)
 ├── requirements.txt                              # Daftar pustaka Python untuk eksekusi lokal & Local Runtime Colab
 ├── .gitignore                                    # Konfigurasi pengabaian folder kerja sementara & cache
